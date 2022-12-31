@@ -1,4 +1,4 @@
-#1260 DFS BFS 보단 BTS
+#1260 DFS, BFS 보단 BTS
 import sys
 input = sys.stdin.readline
 

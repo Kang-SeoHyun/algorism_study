@@ -1,4 +1,4 @@
-#1213 팰린드롬 만들기
+#1213 팰린드롬 만들기.
 import sys
 input = sys.stdin.readline
 

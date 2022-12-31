@@ -1,4 +1,4 @@
-#꼭꼭 숨어라 머리카락 보일라
+#꼭꼭 숨어라~ 머리카락 보일라
 import sys
 input = sys.stdin.readline
 from collections import deque
