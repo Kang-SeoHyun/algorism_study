@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 num = int(input())
 s = [0] * 20
 
