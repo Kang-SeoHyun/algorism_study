@@ -13,20 +13,20 @@ inp = list(map(int, input().split()))
 for i in range (1, n + 1):
 	arr[i] = inp[i - 1]
 
-ans = 0
-child = 0
+answer = 0
+city = 0
 
 for i in range (1, n + 1):
 	if not visit[arr[i]] :
-		ans += 1
+		answer += 1
 		visit[arr[i]] = True
-		child = arr[i]
+		city = arr[i]
 	else :
-		parent[child] = arr[i]
-		child = arr[i]
+		parent[city] = arr[i]
+		city = arr[i]
 
-parent[child] = -1
+parent[city] = -1
 
-print(ans)
-for i in range (ans) :
+print(answer)
+for i in range (answer) :
 	print(parent[i], end = ' ')
